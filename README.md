@@ -1,5 +1,6 @@
 # Car Rating
- Arac Degerlendirme mobil uygulaması
+Arac Degerlendirme mobil uygulaması
+
 ![rating giriş 1](https://user-images.githubusercontent.com/85438205/209974867-d0c000e5-1960-43a8-a28a-2e30ad54c649.PNG)
 
 ![rating 2](https://user-images.githubusercontent.com/85438205/209974874-f58eeb13-c876-4775-a69d-be88f5162cfc.PNG)
