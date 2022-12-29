@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnasayfaActivity">
+
+        <Button
+            android:text="Profil Bilgileri"
+            android:textColor="#0E5AF1"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:id="@+id/profilBilgi"
+            android:backgroundTint="@color/white"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Button>
+
+        <TextView
+            android:id="@+id/dbisim"
+            android:layout_centerHorizontal="true"
+            android:textSize="17dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_below="@id/profilBilgi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/dbsoyisim"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_below="@+id/dbisim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/dbyas"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textSize="17dp"
+            android:layout_below="@+id/dbsoyisim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/dbkullaniciisim"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:layout_below="@+id/dbyas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/dbhesaptarih"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/dbkullaniciisim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/anketicon"
+            android:layout_below="@id/dbhesaptarih"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/anketicon"
+            android:layout_marginTop="50dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/anketText"
+            android:text="Araç değerlendir"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/anketicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/kullaniciAnketleriicon"
+            android:layout_below="@id/anketText"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/digeranket"
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/kullaniciAnketleriText"
+            android:text="Değerlendirilmiş araçlara bak"
+            android:textStyle="bold"
+            android:textSize="21dp"
+            android:textColor="@color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/kullaniciAnketleriicon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+

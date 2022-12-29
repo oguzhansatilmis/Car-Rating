@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnketBilgi">
+
+
+    <Button
+        android:text="Araç Değerlendir"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:id="@+id/aracbilgi"
+        android:backgroundTint="@color/white"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+    <EditText
+        android:id="@+id/arabamodel"
+        android:layout_below="@+id/aracbilgi"
+        android:hint="Değerlendirmek istediğiniz aracın modeli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/aracYorum"
+        android:layout_below="@+id/arabamodel"
+        android:hint="Araç hakkında yorumlarınız"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp">
+
+    </EditText>
+    <Button
+        android:id="@+id/icmekanButton"
+        android:text="İç mekan genişliği"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/aracYorum"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#3F51B5">
+
+    </Button>
+
+
+    <RadioGroup
+        android:id="@+id/icmekanRadioGrup"
+        android:layout_below="@+id/icmekanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/mekan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/mekan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/mekan3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/mekan4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/mekan5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5">
+        </RadioButton>
+    </RadioGroup>
+    <Button
+        android:id="@+id/DonanımTeknolojisiButton"
+        android:layout_below="@id/icmekanRadioGrup"
+        android:text="Donanım Teknolojisi"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#3F51B5">
+
+    </Button>
+    <RadioGroup
+        android:id="@+id/DonanımRadioGrup"
+        android:layout_below="@+id/DonanımTeknolojisiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/donanım1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/donanım2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/donanım3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/donanım4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/donanım5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5">
+        </RadioButton>
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/anketDevamEt"
+        android:layout_below="@+id/DonanımRadioGrup"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="Değerlendirmeye devam et"
+        app:backgroundTint="#3F51B5">
+
+    </Button>
+
+
+
+
+
+</RelativeLayout>

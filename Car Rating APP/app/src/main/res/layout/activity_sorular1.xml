@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sorular1Activity">
+
+<Button
+    android:id="@+id/yakitButton"
+    android:text="Yakıt Tüketimi"
+    android:textSize="20dp"
+    android:layout_centerHorizontal="true"
+    android:textColor="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:backgroundTint="#3F51B5">
+
+</Button>
+
+
+<RadioGroup
+    android:id="@+id/yakitRadioGrup"
+    android:layout_below="@+id/yakitButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_centerHorizontal="true">
+
+    <RadioButton
+        android:id="@+id/yakit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1">
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/yakit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2">
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/yakit3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3">
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/yakit4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4">
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/yakit5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5">
+    </RadioButton>
+</RadioGroup>
+    <Button
+        android:id="@+id/MalzemeKalitesiButton"
+        android:layout_below="@id/yakitRadioGrup"
+        android:text="Malzeme kalitesi"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#3F51B5">
+
+    </Button>
+    <RadioGroup
+        android:id="@+id/MalzemeRadioGrup"
+        android:layout_below="@+id/MalzemeKalitesiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/malzeme1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/malzeme2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/malzeme3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/malzeme4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/malzeme5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5">
+        </RadioButton>
+    </RadioGroup>
+    <Button
+        android:id="@+id/YolTutusuButton"
+        android:layout_below="@id/MalzemeRadioGrup"
+        android:text="Yol Tutuşu"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#3F51B5">
+
+    </Button>
+    <RadioGroup
+        android:id="@+id/YolTutusuRadioGrup"
+        android:layout_below="@+id/YolTutusuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/yol1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/yol2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/yol3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/yol4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/yol5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5">
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/HızlanmaPerformansıButton"
+        android:layout_below="@id/YolTutusuRadioGrup"
+        android:text="Hızlanma Performansı"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#3F51B5">
+
+    </Button>
+    <RadioGroup
+        android:id="@+id/HızlanmaPerformansıRadioGrup"
+        android:layout_below="@+id/HızlanmaPerformansıButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/ses1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/ses2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/ses3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/ses4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/ses5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5">
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/SesYalıtımıButton"
+        android:layout_below="@id/HızlanmaPerformansıRadioGrup"
+        android:text="Ses Yalıtımı"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#3F51B5">
+
+    </Button>
+
+    <RadioGroup
+        android:id="@+id/SesYalıtımıRadioGrup"
+        android:layout_below="@+id/SesYalıtımıButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/hız1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/hız2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/hız3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/hız4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/hız5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5">
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/VitesGecisleriButton"
+        android:layout_below="@id/SesYalıtımıRadioGrup"
+        android:text="Vites Geçişleri"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#3F51B5">
+
+    </Button>
+
+    <RadioGroup
+        android:id="@+id/VitesGecisleriRadioGrup"
+        android:layout_below="@+id/VitesGecisleriButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <RadioButton
+            android:id="@+id/vites1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/vites2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/vites3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/vites4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/vites5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5">
+        </RadioButton>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/deneme"
+        android:layout_below="@+id/VitesGecisleriRadioGrup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/anketbitir"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/deneme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#3F51B5"
+        android:text="Bitir">
+
+    </Button>
+
+
+
+
+
+
+</RelativeLayout>

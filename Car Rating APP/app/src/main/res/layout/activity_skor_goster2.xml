@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkorGoster2Activity">
+
+    <TextView
+        android:id="@+id/texttttttt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verilen Skorlar"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="17dp">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/hızCevap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texttttttt"
+
+        android:textStyle="bold"
+        android:textSize="17dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/vitesCevap"
+        android:layout_below="@+id/hızCevap"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/donanımCevap"
+        android:layout_below="@+id/vitesCevap"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/malzemeCevap"
+        android:layout_below="@+id/donanımCevap"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/mekanCevap"
+        android:layout_below="@+id/malzemeCevap"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+
+        android:textStyle="bold"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/sesCevap"
+        android:layout_below="@+id/mekanCevap"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/yolCevap"
+        android:layout_below="@+id/sesCevap"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/yakıtCevap"
+        android:layout_below="@+id/yolCevap"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/kullaniciCevapText"
+        android:layout_below="@+id/yakıtCevap"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:layout_marginTop="50dp"
+        android:text="Kullanıcının Yorumu"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/aracYorumCevap"
+        android:layout_below="@+id/kullaniciCevapText"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+
+
+
+
+</RelativeLayout>

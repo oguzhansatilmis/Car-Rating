@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KayitolActivity">
+
+    <EditText
+        android:id="@+id/emailTextKayit"
+        android:hint="Lütfen email adresinizi giriniz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+    </EditText>
+    <EditText
+        android:id="@+id/sifreTextKayit"
+        android:hint="Lütfen geçerli şifre giriniz"
+        android:layout_below="@id/emailTextKayit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:password="true">
+    </EditText>
+    <EditText
+        android:id="@+id/kullaniciAdi"
+        android:hint="Lütfen geçerli bir Kullanıcı adı giriniz"
+        android:layout_below="@id/sifreTextKayit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/kullaniciIsım"
+        android:hint="İsim"
+        android:layout_below="@id/kullaniciAdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/kullaniciSoyisim"
+        android:hint="Soyisim"
+        android:layout_below="@id/kullaniciIsım"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/kullaniciYas"
+        android:hint="Yaş"
+        android:layout_below="@id/kullaniciSoyisim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+    </EditText>
+
+    <Button
+        android:id="@+id/kayitOl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kullaniciYas"
+        android:textColor="@color/white"
+        android:text="Kayıt ol"
+        app:backgroundTint="#3F51B5">
+
+    </Button>
+
+
+</RelativeLayout>

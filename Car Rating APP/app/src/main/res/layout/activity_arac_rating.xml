@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AracRatingActivity">
+
+
+    <TextView
+        android:id="@+id/textBilgi"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:text="Değerlendirme Bitti."
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/ratingImage"
+        android:layout_below="@+id/textBilgi"
+        android:layout_width="125dp"
+        android:layout_marginTop="25dp"
+        android:layout_height="125dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/like">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/arac1"
+        android:layout_below="@+id/ratingImage"
+        android:layout_width="wrap_content"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:id="@+id/arac2"
+        android:layout_below="@+id/arac1"
+        android:layout_width="wrap_content"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:id="@+id/cevapBilgiText"
+        android:layout_below="@+id/arac2"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:text="Verdiğiniz Puanlar"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/hızCevap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/cevapBilgiText"
+        android:text="Verdiğiniz Puanlar"
+        android:textSize="17dp">
+
+    </TextView>
+    <TextView
+        android:id="@+id/vitesCevap"
+        android:layout_below="@+id/hızCevap"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:text="Verdiğiniz Puanlar"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/donanımCevap"
+        android:layout_below="@+id/vitesCevap"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:text="Verdiğiniz Puanlar"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/malzemeCevap"
+        android:layout_below="@+id/donanımCevap"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:text="Verdiğiniz Puanlar"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/mekanCevap"
+        android:layout_below="@+id/malzemeCevap"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:text="Verdiğiniz Puanlar"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/sesCevap"
+        android:layout_below="@+id/mekanCevap"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:text="Verdiğiniz Puanlar"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/yolCevap"
+        android:layout_below="@+id/sesCevap"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:text="Verdiğiniz Puanlar"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/yakıtCevap"
+        android:layout_below="@+id/yolCevap"
+        android:layout_width="wrap_content"
+        android:textSize="17dp"
+        android:text="Verdiğiniz Puanlar"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/geriDon"
+        android:text="Ana sayfaya dönmek için tıklayın"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/yakıtCevap"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#3F51B5">
+
+    </Button>
+
+
+
+
+
+</RelativeLayout>

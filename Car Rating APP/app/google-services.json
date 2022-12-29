@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "854150873661",
+    "project_id": "staj-4c033",
+    "storage_bucket": "staj-4c033.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854150873661:android:039006ca9d15e9afb96054",
+        "android_client_info": {
+          "package_name": "com.example.staj2021"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854150873661-li9r6f8i101k6vmi72rcpnikr7rr38i1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCe6cGHLMttEbuGjltUNuOHIsR-qp2erI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854150873661-li9r6f8i101k6vmi72rcpnikr7rr38i1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
